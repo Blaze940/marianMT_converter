@@ -1,6 +1,14 @@
-# MarianMT to TFLite Converter
+# MarianMT Converter
 
-A Python tool to convert MarianMT translation models to TFLite format.
+A tool for converting MarianMT models to TFLite format for efficient machine translation.
+
+## Description
+
+This project provides utilities to:
+- Convert MarianMT models to TFLite format
+- Handle tokenization and translation
+- Support multiple language pairs
+- Optimize for mobile and edge devices
 
 ## Requirements
 
@@ -24,3 +32,9 @@ pip install -r requirements.txt
 ```bash
 python marianMT_converter.py
 ```
+
+4. Run the test with tokenizer
+```bash
+python test_translation.py
+```
+
