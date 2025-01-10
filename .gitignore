@@ -1,5 +1,3 @@
-/.venv
-
 # Generated model directories
 saved_models/
 tflite_models/
